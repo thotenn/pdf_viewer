@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    namespace 'com.thotenn.pdfviewer'
+    compileSdkVersion 33
 
     defaultConfig {
         minSdkVersion 21
